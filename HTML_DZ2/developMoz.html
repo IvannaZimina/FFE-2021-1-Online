@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>developMozilla</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="developMoz.css">
+
+</head>
+
+<body>
+    <div id="fullPage">
+
+        <div id="header">
+            <a href="#"><img class="logo" src="mdn-web-docs-vector-logo1.png" title="logo" alt="logo"></a>
+            <div class="category">
+                <ul class="categoryList">
+                    <li>Technologies</li>
+                    <li>Referensec & Guides</li>
+                    <li>Feedback</li>
+                </ul>
+                <form action="search" role="search" class="search">
+                    <input type="search" plaseholder="SearchMDN">
+                    <input type="submit" value="Sign in">
+                </form>
+            </div>
+        </div>
+
+        <div class="title">
+            <h1>&lthgroup&gt</h1>
+        </div>
+
+        <div id="pageContainer">
+
+            <nav class="navigation">
+                <ol class="chapterNav">
+                    <li><a href="#">Веб-технологии для разработчиков</a> &gt</li>
+                    <li><a href="#">HTML</a> &gt</li>
+                    <li><a href="#">Элемент</a> &gt</li>
+                    <li><a href="#">&ltgroup&gt</a></li>
+                </ol>
+                <form class="language">
+                    <select name="language" id="">
+                        <option value="ru">Русский</option>
+                        <option value="en">English</option>
+                    </select>
+                </form>
+            </nav>
+
+            <div id="mainContent">
+
+                <aside class="asideBar">
+
+                    <section class="contentDocs">
+                        <h2>Table of content</h2>
+                        <ul>
+                            <li><a href="#">Атрибуты</a></li>
+                            <li><a href="#">Примеры</a></li>
+                            <li><a href="#">Совместимость браузеров</a></li>
+                            <li><a href="#">Смотри также</a></li>
+                        </ul>
+                    </section>
+
+                    <section class="articles">
+                        <h4>Related Topics</h4>
+                        <div>HTML элементы</div>
+                    </section>
+
+                </aside>
+
+                <article class="mainInfo">
+
+                    <div>
+                        <div class="noteFirst">
+                            <div class="noteOne">
+                                <strong>Это экспериментальная технология</strong> <br> Так как спецификация этой технологии ещё не стабилизировалась, смотрите <a href="#">таблицу совместимости</a> по поводу использования в различных браузерах. Также заметьте,
+                                что синтаксис и поведение экспериментальной технологии может измениться в будущих версиях браузеров, вслед за изменениями спецификации.
+                            </div>
+                        </div>
+
+                        <div class="noteSecond">
+                            <div class="noteTwo"><strong>Примечание использования:</strong>Этот элемент был удален из HTML5 (W3C) спецификации , но до сих пор остается в спецификации WHATWG. Он частично встроен в большинство браузеров, хотя бы поэтому врядли уйдет. Поскольку
+                                схематический алгоритм не реализован ни в одном брузере, семантика тега &lthgroup&gt на практике реализована только теоретически. Спецификация HTML5 (W3C) дает совет как обозначать <a href="#">подзаголовки</a>, <a href="#">альтернативные заголовки и слоганы</a>.
+                            </div>
+                        </div>
+
+                        <p class="textInfo">
+                            HTML &lthgroup&gt Элемент (HTML Headings Group Element - Элемент Группы Заголовков HTML) представляет заголовок раздела. Он определяет один заголовок, который участвует в cхеме документа как заголовок явно или неявно заданного раздела, к которому он принадлежит.
+                        </p>
+                        <p class="textInfo">
+                            Собственно текст для схематического алгоритма - это текст первого элемента заголовка HTML наивысшего ранга (т. Е. Первый <a href="#">&lth1&gt</a>, <a href="#">&lth2&gt</a>, <a href="#">h3</a>, <a href="#">h4</a>, <a href="#">h5</a>                            или <a href="#">h6</a> с наименьшим числом потомков), а rank - уровень этого элемента заголовка HTML.
+                        </p>
+                        <p class="textInfo">
+                            Поэтому этот элемент группирует несколько заголовков, внося лишь основной текст в план документа. Он позволяет связывать вторичные заголовки, такие как подзаголовки, альтернативные заголовки или даже теги, с основным заголовком, без загрязнения структуры
+                            документа.
+                        </p>
+
+                        <table class="tableOne">
+                            <tbody class="bodyTableOne">
+                                <tr>
+                                    <th class="rowPropOne">
+                                        <p>Категория информации</p>
+                                    </th>
+                                    <td class="cellPropOne">
+                                        <a href="#">Flow content</a>, heading content, palpable content.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="rowPropOne">
+                                        <p>Permitted content</p>
+                                    </th>
+                                    <td class="cellPropOne">
+                                        One or more <a href="#">&lth1&gt</a>, <a href="#">&lth2&gt</a>, <a href="#">&lth3&gt</a>, <a href="#">&lth4&gt</a>, <a href="#">&lth5&gt</a>, and/or <a href="#">&lth6&gt</a>.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="rowPropOne">
+                                        <p>Tag omission</p>
+                                    </th>
+                                    <td class="cellPropOne">
+                                        Нет, открывающий и закрывающий теги обязательны.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="rowPropOne">
+                                        <p>Permitted parent elements</p>
+                                    </th>
+                                    <td class="cellPropOne">
+                                        Any element that accepts <a href="#">flow content</a>.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="rowPropOne">
+                                        <p>DOM interface</p>
+                                    </th>
+                                    <td class="cellPropOne">
+                                        <a href="#">HTMLElement</a>.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                    <h2 class="titleNames"><a href="#">Атрибуты</a></h2>
+
+                    <p class="textAtribut">This element only includes the <a href="#">global attributes</a>.</p>
+
+                    <h2 class="titleNames"><a href="#">Примеры</a></h2>
+
+                    <div class="exampleNote">
+                        <div class="exampleNoteTwo">
+                            <p class="paragrahGroup">&lthgroup&gt</p>
+                            <p class="exampleIndent">&lth1&gtГлавный заголовок&lt/h1&gt</p>
+                            <p class="exampleIndent">&lth2&gtВторичный заголовок&lt/h2&gt</p>
+                            <p class="paragrahGroup">&lt/hgroup&gt</p>
+                        </div>
+                    </div>
+
+
+                    <h2 class="titleNames"><a href="#">Совместимость браузеров</a></h2>
+
+                    <div>
+
+                        <div class="browserPlus">
+                            <p class="browserPlusNote">
+                                <a href="#">We're converting our compatibility data into a machine-readable JSON format.</a> We're converting our compatibility data into a machine-readable JSON format. This compatibility table still uses the old format,
+                                because we haven't yet converted the data it contains. <a href="#">Find out how you can help!</a>
+                            </p>
+                        </div>
+
+                        <ul class="browserList">
+                            <li><a href="#">Настольные</a></li>
+                            <li><a href="#">Мобильные</a></li>
+                        </ul>
+
+                        <div>
+                            <table class="supMachTable">
+                                <tbody>
+                                    <tr>
+                                        <th class="borderTh">Свойство</th>
+                                        <th class="borderTh">Chrome</th>
+                                        <th class="borderTh">Firefox (Gecko)</th>
+                                        <th class="borderTh">Internet Explorer</th>
+                                        <th class="borderTh">Opera</th>
+                                        <th class="borderTh">Safari</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="borderTd">Basic support</td>
+                                        <td class="borderTd">5</td>
+                                        <td class="borderTd"><a href="#">4.0</a>(2.0)</td>
+                                        <td class="borderTd">9.0</td>
+                                        <td class="borderTd">11.10</td>
+                                        <td class="borderTd">4.1</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="supMachTable">
+                                <tbody>
+                                    <tr>
+                                        <th class="borderTh">Свойство</th>
+                                        <th class="borderTh">Android</th>
+                                        <th class="borderTh">Firefox Mobile (Gecko)</th>
+                                        <th class="borderTh">IE Mobile</th>
+                                        <th class="borderTh">Opera Mobile</th>
+                                        <th class="borderTh">Safari Mobile</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="borderTd">Basic support</td>
+                                        <td class="borderTd">2.2</td>
+                                        <td class="borderTd">4.0(2.0)</td>
+                                        <td class="borderTd">9.0</td>
+                                        <td class="borderTd">11.0</td>
+                                        <td class="borderTd">5.0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                    </div>
+
+                    <h2 class="titleNames"><a href="#">Смотри также</a></h2>
+
+                    <div class="lookAlso">
+                        <ul class="lookAlsoList">
+                            <li>Другие элементы, связанные с разделом: <a href="#">&ltbody&gt</a>, <a href="#">&ltarticle&gt</a>, <a href="#">&ltsection&gt</a>, <a href="#">&ltaside&gt</a>, <a href="#">&lth1&gt</a>, <a href="#">&lth2&gt</a>, <a href="#">&lth3&gt</a>,
+                                <a href="#">&lth4&gt</a>, <a href="#">&lth5&gt</a>, <a href="#">&lth6&gt</a>, <a href="#">&ltnav&gt</a>, <a href="#">&ltheader&gt</a>, <a href="#">&ltfooter&gt</a>, <a href="#">&ltaddress&gt</a>;</li>
+                            <li><a href="#">Sections and outlines of an HTML5 document.</a></li>
+                        </ul>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+        <div id="modified">
+            <div class="modBlock">
+                <strong>Last modified:</strong> 11 апр. 2020 г., <a href="#">by MDN contributors</a>
+            </div>
+        </div>
+
+        <div id="footer">
+
+            <div class="footerLogo">
+                <a href="#"><img src="logo-inverse1.png" alt="logo"></a>
+            </div>
+
+            <div class="footList">
+
+                <div class="footListLeft">
+                    <ul class="LetList">
+                        <li><a href="#">Web Technologies</a></li>
+                        <li><a href="#">Learn Web Development</a></li>
+                        <li><a href="#">About MDN</a></li>
+                        <li><a href="#">Feedback</a></li>
+                        <li><a href="#">MDN</a></li>
+                    </ul>
+                </div>
+
+                <div class="footListRight">
+                    <ul class="LetList">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">MDN Web Docs Store</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Firefox</a></li>
+                        <li><a href="#">MDN</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <p class="License">
+                © 2005-2021 Mozilla and individual contributors. Content is available under these licenses.
+            </p>
+
+            <div class="termsPrivacy">
+                <ul class="Privacy">
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Cookies</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

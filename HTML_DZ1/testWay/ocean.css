@@ -1,0 +1,120 @@
+#page {
+    font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-areas: "leftBar header header" "leftBar main rightBar" ". footer footer";
+}
+
+.one {
+    grid-area: leftBar;
+    background-color: rgb(230, 140, 230);
+    min-height: 200px;
+    flex-direction: column;
+}
+
+.logoImg {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.list {
+    font-size: 100%;
+    padding: 0;
+}
+
+.list li {
+    list-style-type: none;
+}
+
+.two {
+    grid-area: header;
+    background-color: rgb(140, 230, 155);
+}
+
+.register {
+    width: 98%;
+}
+
+.regList {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.regList li {
+    padding-right: 10px;
+    margin: 5px;
+    flex-direction: reverse;
+}
+
+.navigation {
+    width: 98%;
+}
+
+.navList {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navList li {
+    padding-right: 10px;
+    margin: 5px;
+    flex-direction: reverse;
+}
+
+.title {}
+
+.edit {
+    width: 97%;
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 50%;
+    grid-template-areas: "right left" "center center";
+}
+
+.ed1 {
+    grid-area: right;
+}
+
+.ed2 {
+    grid-area: left;
+    text-align: right;
+}
+
+.ed3 {
+    grid-area: center;
+    border: 1px solid #a8a9ab;
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 2px;
+    text-align: center;
+}
+
+.three {
+    grid-area: main;
+    background-color: rgb(140, 209, 230);
+    min-height: 100px;
+}
+
+.four {
+    grid-area: rightBar;
+    background-color: rgb(230, 140, 155);
+    min-height: 100px;
+}
+
+.five {
+    grid-area: footer;
+    background-color: rgb(230, 224, 140);
+    min-height: 100px;
+}

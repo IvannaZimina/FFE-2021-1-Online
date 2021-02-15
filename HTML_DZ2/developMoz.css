@@ -1,0 +1,376 @@
+#fullPage {
+    width: 100%;
+    min-height: 1000px;
+}
+
+#pageContainer {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+#header {
+    height: 110px;
+    display: inline-flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    padding: 0 25px 0 25px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.category {
+    box-sizing: border-box;
+    display: inline-flex;
+}
+
+.categoryList {
+    padding: 0;
+}
+
+.categoryList li {
+    list-style-type: none;
+    font-weight: bold;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 25px 50px 0 50px;
+}
+
+.search {
+    box-sizing: border-box;
+    padding-top: 35px;
+    padding-left: 100px;
+}
+
+.title {
+    background-color: #eee;
+    border-bottom: 1px solid #cdd5d7;
+    border-top: 1px solid #cdd5d7;
+    box-sizing: border-box;
+    height: 80px;
+    font-family: arial, 'x-locale-body', 'sans-serif';
+    font-size: 100%;
+}
+
+.title h1 {
+    box-sizing: border-box;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.navigation {
+    width: 1000px;
+    height: 50px;
+    display: inline-flex;
+    box-sizing: border-box;
+    font-size: 95%;
+}
+
+.chapterNav {
+    list-style-type: none;
+    display: inline-flex;
+    padding: 0;
+}
+
+.language {
+    padding-top: 15px;
+    padding-left: 420px;
+}
+
+#mainContent {
+    width: 1000px;
+    height: auto;
+    display: inline-flex;
+    box-sizing: border-box;
+}
+
+.asideBar {
+    width: 200px;
+}
+
+.contentDocs ul {
+    padding: 0;
+    margin: 0;
+}
+
+.contentDocs li {
+    list-style-type: none;
+    box-sizing: border-box;
+    padding: 5px 0;
+    font-size: 95%;
+}
+
+.articles div {
+    font-size: 85%;
+}
+
+.mainInfo {
+    width: 800px;
+    height: auto;
+    box-sizing: border-box;
+    padding: 15px 20px 20px 20px;
+    font-size: 95%;
+}
+
+.noteFirst {
+    background-color: #fef1b6;
+    border-left: 6px solid #e1c542;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+}
+
+.noteOne {
+    width: 600px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.noteSecond {
+    background-color: #dcf4ff;
+    border-left: 6px solid #1e7f9d;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+}
+
+.noteTwo {
+    width: 600px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.textInfo {
+    width: 600px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.tableOne {
+    width: 600px;
+    background-color: #fafafa;
+    border: 2px solid #00458b;
+    border-left-width: 6px;
+    border-collapse: collapse;
+    overflow-x: auto;
+    margin-bottom: 45px;
+}
+
+.bodyTableOne {
+    box-sizing: border-box;
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.rowPropOne {
+    display: table-cell;
+    border-top: 2px solid #00458b;
+}
+
+.rowPropOne p {
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: left;
+    width: 150px;
+    vertical-align: top;
+}
+
+.cellPropOne {
+    border-top: 2px solid #00458b;
+    box-sizing: border-box;
+}
+
+.titleNames {
+    margin-bottom: 36px;
+    font-family: zillaslab, palatino, "Palatino Linotype", serif;
+    box-sizing: border-box;
+    font-size: 2.441rem;
+    margin-bottom: 30px;
+}
+
+.titleNames a {
+    color: #212121;
+    text-decoration: none;
+}
+
+.textAtribut {
+    font-size: 95%;
+    margin-bottom: 20px;
+}
+
+.exampleNote {
+    background-color: #eee;
+    border-left: 6px solid #00458b;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+}
+
+.exampleNoteTwo {
+    width: 600px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.exampleIndent {
+    text-indent: 3%;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 1rem;
+    font-family: 'consolas', "Liberation Mono", courier, monospace;
+}
+
+.paragrahGroup {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 1rem;
+    color: #905;
+    font-family: 'consolas', "Liberation Mono", courier, monospace;
+}
+
+.browserPlus {
+    background-color: #fef1b6;
+    border-left: 6px solid #e1c542;
+    box-sizing: border-box;
+}
+
+.browserPlusNote {
+    width: 750px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.browserList a {
+    text-decoration: none;
+    line-height: 1.75em;
+    box-sizing: border-box;
+}
+
+.supMachTable {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    margin-bottom: 45px;
+}
+
+.borderTh {
+    border: 1px solid grey;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: left;
+}
+
+.borderTd {
+    border: 1px solid grey;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: left;
+}
+
+.lookAlso {
+    width: 600px;
+    margin-top: 15px;
+}
+
+.lookAlsoList {
+    box-sizing: border-box;
+    margin: 15px 0;
+    line-height: 1.75;
+}
+
+.lookAlsoList a {
+    text-decoration: none;
+}
+
+#modified {
+    height: 75px;
+    box-sizing: border-box;
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+.modBlock {
+    padding: 24px;
+    line-height: 1.75;
+}
+
+#footer {
+    background-color: #212121;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 48px 24px;
+    line-height: 1.75;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+.footerLogo img {
+    width: 200px;
+}
+
+.footList {
+    width: 1000px;
+    display: inline-flex;
+    box-sizing: border-box;
+}
+
+.footListLeft {
+    width: 500px;
+    box-sizing: border-box;
+}
+
+.footListRight {
+    width: 500px;
+    box-sizing: border-box;
+}
+
+.LetList {
+    padding: 0;
+}
+
+.LetList li {
+    list-style-type: none;
+    line-height: 2;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.LetList a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.License {
+    border-top: 1px solid #eee;
+    color: #fff;
+    box-sizing: border-box;
+    margin: 50px 0 30px 0;
+    padding-top: 30px;
+}
+
+.termsPrivacy {
+    box-sizing: border-box;
+}
+
+.Privacy {
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+}
+
+.Privacy li {
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+.Privacy a {
+    text-decoration: none;
+    color: #fff;
+}
