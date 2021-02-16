@@ -1,0 +1,459 @@
+    * :after :before {
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-family: Sentinel SSm A, Sentinel SSm B, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    }
+    
+    .startBackImage {
+        width: 100%;
+        height: auto;
+        background: linear-gradient( 130deg, #ff7a18, #af002d 41.07%, #319197 76.05%);
+    }
+    
+    .headerBlock {
+        display: flex;
+        justify-content: space-between;
+        background: rgba(0, 0, 0, .25);
+        box-shadow: inset 0 -2px 4px rgb(0 0 0 / 33%);
+    }
+    
+    .leftHeadBlock {
+        display: flex;
+    }
+    
+    .logoHeader img {
+        height: 20px;
+        padding: 10px;
+    }
+    
+    .navigationList {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 10px 0 25px;
+        padding: 0;
+    }
+    
+    .navigationList li {
+        padding: 10px 20px 0 0;
+    }
+    
+    .navigationList a {
+        text-decoration: none;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 0.6em;
+    }
+    
+    .searchSign img {
+        width: 20px;
+        padding: 8px 5px;
+        margin-right: 10px;
+    }
+    
+    .tricksInfo {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+        padding: 15px 0;
+    }
+    
+    .leftInfoBlock {
+        width: 65%;
+        padding: 15px 0;
+    }
+    
+    .homeGuide {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        font-size: 0.8em;
+    }
+    
+    .homeGuide a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .homeGuide li {
+        list-style-type: none;
+    }
+    
+    .leftInfoBlock h1 {
+        font-weight: bold;
+        color: #fff;
+        margin: 0;
+    }
+    
+    .author {
+        display: flex;
+        font-size: 0.8em;
+        color: #fff;
+        font-family: 'Times New Roman', Times, serif;
+        padding-top: 10px;
+    }
+    
+    .author .Chris {
+        padding: 10px;
+    }
+    
+    .author a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .author img {
+        width: 35px;
+        border-radius: 17px;
+    }
+    
+    .guideText {
+        width: 90%;
+        color: #fff;
+        line-height: 1.5em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .rightInfoBlock {
+        width: 35%;
+        margin: 0;
+        padding-top: 10px;
+    }
+    
+    .borderBlock {
+        display: flex;
+        background-color: #262626;
+        border-radius: 10px;
+        padding: 15px;
+    }
+    
+    .textRightInfoBlock {
+        width: 65%;
+    }
+    
+    .imgLeftInfoBlock {
+        width: 35%;
+    }
+    
+    .Monthly {
+        color: #909090;
+        font-size: 60%;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        padding-bottom: 3px;
+    }
+    
+    .textRightInfoBlock h5 {
+        margin: 0;
+        padding: 0;
+        color: #fff;
+    }
+    
+    h5 a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    .frontendMaster {
+        line-height: 1.5;
+        font-family: 'Times New Roman', Times, serif;
+        color: #fff;
+        font-size: 0.7em;
+    }
+    
+    .frontendMaster a {
+        text-decoration: none;
+        color: rgb(68, 71, 235);
+    }
+    
+    .masterImg {
+        width: 90px;
+        margin: 0 auto;
+        padding-top: 25%;
+        padding-left: 10%;
+    }
+    
+    .centerSection {
+        background: #262626;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    .whiteCenterBlock {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        background-color: #fff;
+        padding: 20px;
+    }
+    
+    .leftWhiteSide {
+        width: 45%;
+        padding: 15px;
+    }
+    
+    .styleParagraph h3 {
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+    
+    .styleParagraph a {
+        color: #000;
+        text-decoration: underline 2px solid rgb(39, 224, 224);
+    }
+    
+    .styleChapter {
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+    
+    .containerImgOne img {
+        width: 55%;
+        margin-top: 90px;
+    }
+    
+    .infoContainer {
+        background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(244, 220, 249, 1) 77%);
+        padding: 5px 30px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 10px;
+    }
+    
+    .namecontentBlock {
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+    
+    .syntcsys p {
+        width: 80%;
+        padding: 15px;
+        background-color: #262626;
+        color: rgb(252, 252, 10);
+        border-radius: 5px;
+    }
+    
+    .imageInsideBlock {
+        width: 55%;
+    }
+    
+    .listFlexDirection li {
+        width: 80%;
+        list-style-type: circle;
+        list-style: red;
+        line-height: 1.3em;
+    }
+    
+    .simpleText {
+        width: 85%;
+        font-size: 1.2 em;
+        line-height: 1.3em;
+    }
+    
+    .heyNote {
+        border: 1px solid orange;
+        font-size: 0.8em;
+        padding: 15px 15px 5px 35px;
+        margin-right: 20px;
+    }
+    
+    .endBlock {
+        width: 90%;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+    }
+    
+    .endBlockSizing {
+        padding: 0 20px;
+    }
+    
+    .endBlock h3 {
+        font-size: 1.3em;
+    }
+    
+    .endBlock p {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .endBlock .listFlexDirection {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .browserSupport table {
+        border-collapse: collapse;
+        padding: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .browserSupport thead {
+        background-color: #000;
+        color: #fff;
+        padding: 20px;
+    }
+    
+    .browserSupport table th {
+        padding: 15px;
+        font-size: 0.8em;
+    }
+    
+    .browserSupport table td {
+        border: 1px solid grey;
+        padding: 15px;
+        font-size: 0.7em;
+    }
+    
+    .browserSupport table tr {
+        border: 1px solid grey;
+        padding: 15px;
+    }
+    
+    .rightWhiteSide {
+        width: 45%;
+        padding: 5px 30px;
+    }
+    
+    .poster {
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        margin: 0 auto;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .posterOneSide button {
+        padding: 10px 25px;
+        background-color: rgb(102, 100, 100);
+        border-radius: 5px;
+        color: #fff;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .posterTwoSide img {
+        width: 175px;
+    }
+    
+    .itemImgOne img {
+        width: 55%;
+        margin-top: 45px;
+    }
+    
+    .infoItems {
+        background: linear-gradient(0deg, rgba(247, 203, 154, 0.157) 0%, rgba(250, 189, 133, 0.37) 77%);
+        padding: 5px 30px;
+        margin-bottom: 10px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .leaveReply {
+        width: 94%;
+        margin: 0 auto;
+        background-color: #000;
+        color: #fff;
+    }
+    
+    .centralReply {
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .centralReply h3 {
+        padding-top: 50px;
+    }
+    
+    .centralReply p {
+        padding: 0;
+        margin: 0;
+        font-size: 0.8em;
+    }
+    
+    .centralReply .comment {
+        width: 90%;
+        min-height: 200px;
+        border-radius: 10px;
+        background-color: #fff;
+        color: grey;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+    
+    .manInfo {
+        width: 90%;
+        height: 25px;
+        padding: 5px;
+        border-radius: 7px;
+        margin-bottom: 10px;
+    }
+    
+    .checkboxInput {
+        font-size: 0.6em;
+        padding: 5px;
+        line-height: 1.5rem;
+    }
+    
+    .postComment {
+        padding: 10px 25px;
+        background-color: rgb(102, 100, 100);
+        border-radius: 5px;
+        color: #fff;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 275px;
+        margin-bottom: 50px;
+    }
+    
+    .footerBlock {
+        background-color: #000;
+    }
+    
+    .footerName {
+        color: #fff;
+        font-family: 'Times New Roman', Times, serif;
+        width: 20%;
+        line-height: 1.5em;
+        padding: 25px 0 0 50px;
+    }
+    
+    .footerName a {
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+        color: blue;
+    }
+    
+    .footerMenu {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .titleColomn {
+        color: rgb(151, 69, 2);
+        margin: 0;
+        padding: 20px 0;
+    }
+    
+    .pointMenu {
+        color: rgb(65, 63, 63);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .colomn a {
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+        color: grey;
+        line-height: 1.5em;
+    }
+    
+    .colomn a:hover {
+        text-decoration: underline;
+        color: #fff;
+    }
