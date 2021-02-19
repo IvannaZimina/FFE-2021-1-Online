@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexTricks</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="/flexTricks.css">
+</head>
+
+<body>
+    <div class="mainBlockPage">
+        <div class="startBackImage">
+            <header class="headerBlock">
+                <div class="leftHeadBlock">
+                    <div class="logoHeader">
+                        <img src="/imgTricks/logo-white.png" alt="logo">
+                    </div>
+                    <div>
+                        <ol class="navigationList">
+                            <li><a href="#">articles</a></li>
+                            <li><a href="#">videos</a></li>
+                            <li><a href="#">almanac</a></li>
+                            <li><a href="#">newsletter</a></li>
+                            <li><a href="#">guides</a></li>
+                            <li><a href="#">books</a></li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="searchSign">
+                    <img src="/imgTricks/search-icon.png" alt="search">
+                    <img src="/imgTricks/sign-icon.png" alt="sign">
+                </div>
+            </header>
+            <div class="tricksInfo">
+                <div class="leftInfoBlock">
+                    <div>
+                        <ol class="homeGuide">
+                            <li><a href="#">home / </a></li>
+                            <li><a href="#">guides /</a></li>
+                        </ol>
+                    </div>
+                    <h1>
+                        A Complete Guide to Flexbox
+                    </h1>
+                    <div class="author">
+                        <div><img src="/imgTricks/authorPhoto.jpeg" alt="author"></div>
+                        <div class="Chris"><a href="#">Chris Coyier</a> on Apr 8, 2013 (Updated on Dec 21, 2020)</div>
+                    </div>
+                    <div class="guideText">
+                        <p>Our comprehensive guide to CSS flexbox layout. This complete guide explains everything about flexbox, focusing on all the different possible properties for the parent element (the flex container) and the child elements (the flex
+                            items). It also includes history, demos, patterns, and a browser support chart.</p>
+                    </div>
+                </div>
+
+                <div class="rightInfoBlock">
+                    <div class="borderBlock">
+                        <div class="textRightInfoBlock">
+                            <p class="Monthly">Monthly Sponsor</p>
+                            <h5>Thanks, <a href="#">Frontend Masters!</a></h5>
+                            <div class="frontendMaster">
+                                <p>Take your JavaScript to the next level and find out what it’s fully capable of with the JavaScript path on <a href="#">Frontend Masters.</a> </p>
+                            </div>
+                        </div>
+                        <div class="imgLeftInfoBlock">
+                            <img class="masterImg" src="/imgTricks/default-thumbnail.png" alt="frontendMaster">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <section class="centerSection">
+            <div class="whiteCenterBlock">
+
+                <div class="leftWhiteSide">
+
+                    <div class="styleParagraph">
+                        <h3>&gt <a href="#">Background</a></h3>
+                        <h3>&gt <a href="#">Basics & Terminology</a></h3>
+                    </div>
+
+                    <div class="containerImgOne">
+                        <img src="/imgTricks/leftSide/01-container.svg" alt="container-1">
+                    </div>
+
+                    <div class="styleChapter">
+                        <p class="simpleText">Properties for the Parent <br> (flex container)</p>
+                    </div>
+
+                    <div class="contentBoxContainer">
+
+                        <div class="infoContainer">
+                            <p class="namecontentBlock">display</p>
+                            <p class="simpleText">This defines a flex container; inline or block depending on the given value. It enables a flex context for all its direct children.</p>
+                            <section class="syntcsys">
+                                <p>.container &#123; <br> &nbsp;&nbsp;&nbsp;&nbsp;display: flex; /* or inline-flex */<br> &#125;
+                                </p>
+                            </section>
+                            <p class="simpleText">Note that CSS columns have no effect on a flex container.</p>
+                        </div>
+
+                        <div class="infoContainer">
+                            <p class="namecontentBlock">flex-direction</p>
+                            <div>
+                                <img class="imageInsideBlock" src="/imgTricks/leftSide/flex-direction.svg" alt="">
+                            </div>
+                            <p class="simpleText">This establishes the main-axis, thus defining the direction flex items are placed in the flex container. Flexbox is (aside from optional wrapping) a single-direction layout concept. Think of flex items as primarily laying out
+                                either in horizontal rows or vertical columns.</p>
+                            <section class="syntcsys">
+                                <p>.container &#123; <br> &nbsp;&nbsp;&nbsp;&nbsp;flex-direction: row | row-reverse | column | column-reverse;<br> &#125;
+                                </p>
+                            </section>
+                            <ul class="listFlexDirection">
+                                <li>row (default): left to right in ltr; right to left in rtl</li>
+                                <li>row-reverse: right to left in ltr; left to right in rtl</li>
+                                <li>column: same as row but top to bottom</li>
+                                <li>column-reverse: same as row-reverse but bottom to top</li>
+                            </ul>
+                        </div>
+
+                        <div class="infoContainer">
+                            <p class="namecontentBlock">flex-wrap</p>
+                            <div>
+                                <img class="imageInsideBlock" src="/imgTricks/leftSide/flex-wrap.svg" alt="">
+                            </div>
+                            <p class="simpleText">By default, flex items will all try to fit onto one line. You can change that and allow the items to wrap as needed with this property.</p>
+                            <section class="syntcsys">
+                                <p>.container &#123; <br> &nbsp;&nbsp;&nbsp;&nbsp;flex-wrap: nowrap | wrap | wrap-reverse;<br> &#125;
+                                </p>
+                            </section>
+                            <ul class="listFlexDirection">
+                                <li>nowrap (default): all flex items will be on one line</li>
+                                <li>wrap: flex items will wrap onto multiple lines, from top to bottom.</li>
+                                <li>wrap-reverse: flex items will wrap onto multiple lines from bottom to top.</li>
+                            </ul>
+                            <p class="simpleText"> There are some <a href="#">visual demos of flex-wrap here</a>.</p>
+                        </div>
+
+                        <div class="infoContainer">
+                            <p class="namecontentBlock">flex-flow</p>
+                            <p class="simpleText">This is a shorthand for the flex-direction and flex-wrap properties, which together define the flex container’s main and cross axes. The default value is row nowrap.</p>
+                            <section class="syntcsys">
+                                <p>.container &#123; <br> &nbsp;&nbsp;&nbsp;&nbsp; flex-flow: column wrap;<br> &#125;
+                                </p>
+                            </section>
+                        </div>
+
+                        <div class="infoContainer">
+                            <p class="namecontentBlock">justify-content</p>
+                            <div>
+                                <img class="imageInsideBlock" src="/imgTricks/leftSide/justify-content.svg" alt="">
+                            </div>
+                            <p class="simpleText">This defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. It also exerts some
+                                control over the alignment of items when they overflow the line.</p>
+                            <section class="syntcsys">
+                                <p>.container &#123; <br> &nbsp;&nbsp;&nbsp;&nbsp;justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;<br> &#125;
+                                </p>
+                            </section>
+                            <ul class="listFlexDirection">
+                                <li>flex-start (default): items are packed toward the start of the flex-direction.</li>
+                                <li>flex-end: items are packed toward the end of the flex-direction.</li>
+                                <li>start: items are packed toward the start of the writing-mode direction.</li>
+                                <li>end: items are packed toward the end of the writing-mode direction.</li>
+                                <li>left: items are packed toward left edge of the container, unless that doesn’t make sense with the flex-direction, then it behaves like start.</li>
+                                <li>right: items are packed toward right edge of the container, unless that doesn’t make sense with the flex-direction, then it behaves like end.</li>
+                                <li>center: items are centered along the line</li>
+                                <li>space-between: items are evenly distributed in the line; first item is on the start line, last item on the end line</li>
+                                <li>space-around: items are evenly distributed in the line with equal space around them. Note that visually the spaces aren’t equal, since all the items have equal space on both sides. The first item will have one unit of space
+                                    against the container edge, but two units of space between the next item because that next item has its own spacing that applies.</li>
+                                <li>space-evenly: items are distributed so that the spacing between any two items (and the space to the edges) is equal.</li>
+                            </ul>
+                            <p class="simpleText"> Note that that browser support for these values is nuanced. For example, space-between never got support from some versions of Edge, and start/end/left/right aren’t in Chrome yet. MDN <a href="#">has detailed charts</a>. The
+                                safest values are flex-start, flex-end, and center.</p>
+                            <p class="simpleText"> There are also two additional keywords you can pair with these values: safe and unsafe. Using safe ensures that however you do this type of positioning, you can’t push an element such that it renders off-screen (e.g. off the
+                                top) in such a way the content can’t be scrolled too (called “data loss”).</p>
+                        </div>
+
+                        <div class="infoContainer">
+                            <p class="namecontentBlock">align-items</p>
+                            <div>
+                                <img class="imageInsideBlock" src="/imgTricks/leftSide/align-items.svg" alt="">
+                            </div>
+                            <p class="simpleText">This defines the default behavior for how flex items are laid out along the cross axis on the current line. Think of it as the justify-content version for the cross-axis (perpendicular to the main-axis).</p>
+                            <section class="syntcsys">
+                                <p>.container &#123; <br> &nbsp;&nbsp;&nbsp;&nbsp;align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;<br> &#125;
+                                </p>
+                            </section>
+                            <ul class="listFlexDirection">
+                                <li>stretch (default): stretch to fill the container (still respect min-width/max-width)</li>
+                                <li>flex-start / start / self-start: items are placed at the start of the cross axis. The difference between these is subtle, and is about respecting the flex-direction rules or the writing-mode rules.</li>
+                                <li>flex-end / end / self-end: items are placed at the end of the cross axis. The difference again is subtle and is about respecting flex-direction rules vs. writing-mode rules.</li>
+                                <li>center: items are centered in the cross-axis</li>
+                                <li>baseline: items are aligned such as their baselines align</li>
+                            </ul>
+                            <p class="simpleText"> The safe and unsafe modifier keywords can be used in conjunction with all the rest of these keywords (although note <a href="#">browser support</a>), and deal with helping you prevent aligning elements such that the content
+                                becomes inaccessible.</p>
+                        </div>
+
+                        <div class="infoContainer">
+                            <p class="namecontentBlock">align-content</p>
+                            <div>
+                                <img class="imageInsideBlock" src="/imgTricks/leftSide/align-content.svg" alt="">
+                            </div>
+                            <p class="simpleText">This aligns a flex container’s lines within when there is extra space in the cross-axis, similar to how justify-content aligns individual items within the main-axis.</p>
+                            <div class="heyNote"> Hey!
+                                <p>
+                                    Note: This property only takes effect on multi-line flexible containers, where flex-flow is set to either wrap or wrap-reverse). A single-line flexible container (i.e. where flex-flow is set to its default value, no-wrap) will not reflect align-content.
+                                </p>
+                            </div>
+                            <section class="syntcsys">
+                                <p>.container &#123; <br> &nbsp;&nbsp;&nbsp;&nbsp;align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe |
+                                    unsafe;
+                                    <br> &#125;
+                                </p>
+                            </section>
+                            <ul class="listFlexDirection">
+                                <li>normal (default): items are packed in their default position as if no value was set.</li>
+                                <li>flex-start / start: items packed to the start of the container. The (more supported) flex-start honors the flex-direction while start honors the writing-mode direction.</li>
+                                <li>flex-end / end: items packed to the end of the container. The (more support) flex-end honors the flex-direction while end honors the writing-mode direction.</li>
+                                <li>center: items centered in the container</li>
+                                <li>space-between: items evenly distributed; the first line is at the start of the container while the last one is at the end</li>
+                                <li>space-around: items evenly distributed with equal space around each line</li>
+                                <li>space-evenly: items are evenly distributed with equal space around them</li>
+                                <li>stretch: lines stretch to take up the remaining space</li>
+                            </ul>
+                            <p class="simpleText"> The safe and unsafe modifier keywords can be used in conjunction with all the rest of these keywords (although note <a href="#">browser support</a>), and deal with helping you prevent aligning elements such that the content
+                                becomes inaccessible.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="rightWhiteSide">
+
+                    <div class="poster">
+                        <div class="posterOneSide">
+                            <h3>Get the poster!</h3>
+                            <p>Reference this guide a lot? Pin a copy up on the office wall.</p>
+                            <button type="button" key="Buy Poster">Buy Poster</button>
+                        </div>
+                        <div class="posterTwoSide">
+                            <img src="/imgTricks/rightSide/poster.jpg" alt="poster">
+                        </div>
+                    </div>
+
+                    <div class="itemImgOne">
+                        <img src="/imgTricks/rightSide/02-items.svg" alt="items-1">
+                    </div>
+
+                    <div class="styleChapter">
+                        <p class="simpleText">Properties for the Children<br> (flex items)</p>
+                    </div>
+
+                    <div class="infoItems">
+                        <p class="namecontentBlock">order</p>
+                        <div>
+                            <img class="imageInsideBlock" src="/imgTricks/rightSide/order.svg" alt="order">
+                        </div>
+                        <p class="simpleText">By default, flex items are laid out in the source order. However, the order property controls the order in which they appear in the flex container.</p>
+                        <section class="syntcsys">
+                            <p>.item &#123; <br> &nbsp;&nbsp;&nbsp;&nbsp;order: 5; /* default is 0 */
+                                <br> &#125;
+                            </p>
+                        </section>
+                    </div>
+
+                    <div class="infoItems">
+                        <p class="namecontentBlock">flex-grow</p>
+                        <div>
+                            <img class="imageInsideBlock" src="/imgTricks/rightSide/flex-grow.svg" alt="flex-grow">
+                        </div>
+                        <p class="simpleText">This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.</p>
+                        <p class="simpleText">If all items have flex-grow set to 1, the remaining space in the container will be distributed equally to all children. If one of the children has a value of 2, the remaining space would take up twice as much space as the others
+                            (or it will try to, at least).</p>
+                        <section class="syntcsys">
+                            <p>.item &#123; <br> &nbsp;&nbsp;&nbsp;&nbsp;flex-grow: 4; /* default 0 */
+                                <br> &#125;
+                            </p>
+                        </section>
+                        <p class="simpleText">Negative numbers are invalid.</p>
+                    </div>
+
+                    <div class="infoItems">
+                        <p class="namecontentBlock">flex-shrink</p>
+                        <p class="simpleText">This defines the ability for a flex item to shrink if necessary.</p>
+                        <section class="syntcsys">
+                            <p>.item &#123; <br> &nbsp;&nbsp;&nbsp;&nbsp;flex-shrink: 3; /* default 1 */
+                                <br> &#125;
+                            </p>
+                        </section>
+                        <p class="simpleText">Negative numbers are invalid.</p>
+                    </div>
+
+                    <div class="infoItems">
+                        <p class="namecontentBlock">flex-basis</p>
+                        <p class="simpleText">This defines the default size of an element before the remaining space is distributed. It can be a length (e.g. 20%, 5rem, etc.) or a keyword. The auto keyword means “look at my width or height property” (which was temporarily
+                            done by the main-size keyword until deprecated). The content keyword means “size it based on the item’s content” – this keyword isn’t well supported yet, so it’s hard to test and harder to know what its brethren max-content,
+                            min-content, and fit-content do.</p>
+                        <section class="syntcsys">
+                            <p>.item &#123; <br> &nbsp;&nbsp;&nbsp;&nbsp;flex-basis: | auto; /* default auto */
+                                <br> &#125;
+                            </p>
+                        </section>
+                        <p class="simpleText">If set to 0, the extra space around content isn’t factored in. If set to auto, the extra space is distributed based on its flex-grow value. <a href="#">See this graphic.</a></p>
+                    </div>
+
+                    <div class="infoItems">
+                        <p class="namecontentBlock">flex</p>
+                        <p class="simpleText">This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The second and third parameters (flex-shrink and flex-basis) are optional. The default is 0 1 auto, but if you set it with a single number value, it’s like
+                            1 0.</p>
+                        <section class="syntcsys">
+                            <p>.item &#123; <br> &nbsp;&nbsp;&nbsp;&nbsp;flex: none | [
+                                < 'flex-grow'>
+                                    < 'flex-shrink'>? ||
+                                        < 'flex-basis'> ]
+                                            <br> &#125;
+                            </p>
+                        </section>
+                        <p class="simpleText"> <b>It is recommended that you use this shorthand property</b> rather than set the individual properties. The shorthand sets the other values intelligently.</p>
+                    </div>
+
+                    <div class="infoItems">
+                        <p class="namecontentBlock">align-self</p>
+                        <div>
+                            <img class="imageInsideBlock" src="/imgTricks/rightSide/align-self.svg" alt="align-self">
+                        </div>
+                        <p class="simpleText">This allows the default alignment (or the one specified by align-items) to be overridden for individual flex items.</p>
+                        <p class="simpleText">Please see the align-items explanation to understand the available values.</p>
+                        <section class="syntcsys">
+                            <p>.item &#123; <br> &nbsp;&nbsp;&nbsp;&nbsp;align-self: auto | flex-start | flex-end | center | baseline | stretch;
+                                <br> &#125;
+                            </p>
+                        </section>
+                        <p class="simpleText">Note that float, clear and vertical-align have no effect on a flex item.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="endBlock">
+                <div class="endBlockSizing">
+                    <div class="styleParagraph">
+                        <h3>&gt <a href="#">Examples</a></h3>
+                        <h3>&gt <a href="#">Prefixing Flexbox</a></h3>
+                        <h3>&gt <a href="#">Related Properties</a></h3>
+                        <h3>&gt <a href="#">Other Resources</a></h3>
+                        <h3>&gt <a href="#">Bugs</a> </h3>
+                    </div>
+
+                    <h3>Browser Support</h3>
+
+                    <p>Broken up by “version” of flexbox:</p>
+
+                    <ul class="listFlexDirection">
+                        <li>(new) means the recent syntax from the specification (e.g. display: flex;)</li>
+                        <li>(tweener) means an odd unofficial syntax from 2011 (e.g. display: flexbox;)</li>
+                        <li>(old) means the old syntax from 2009 (e.g. display: box;)</li>
+                    </ul>
+
+                    <div class="browserSupport">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Chrome</th>
+                                    <th>Safari</th>
+                                    <th>Firefox</th>
+                                    <th>Opera</th>
+                                    <th>IE</th>
+                                    <th>Edge</th>
+                                    <th>Android</th>
+                                    <th>iOS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>20- (old) <br> 21+ (new)</td>
+                                    <td>3.1+ (old) <br> 6.1+ (new)</td>
+                                    <td>2-21 (old) <br> 22+ (new)</td>
+                                    <td>12.1+ (new)</td>
+                                    <td>10 (tweener) <br> 11+ (new)</td>
+                                    <td>17+ (new)</td>
+                                    <td> 2.1+ (old) <br> 4.4+ (new)</td>
+                                    <td>3.2+ (old) <br> 7.1+ (new)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p>Blackberry browser 10+ supports the new syntax.</p>
+                </div>
+            </div>
+
+            <div class="leaveReply">
+                <div class="centralReply">
+                    <h3>Leave a Reply</h3>
+                    <p><b>Comment </b>(Markdown Supported)</p>
+                    <input class="comment" type="text" placeholder="New Comment! Use 'backticks' for code.">
+                    <p>Name</p>
+                    <input class="manInfo" type="text">
+                    <p>Email</p>
+                    <input class="manInfo" type="text">
+                    <p>Website</p>
+                    <input class="manInfo" type="text">
+                    <div class="checkboxInput">
+                        <input type="checkbox">Save my name, email, and website in this browser for the next time I comment.<br>
+                        <input type="checkbox" checked>Get the CSS-Tricks newsletter
+                    </div>
+                    <button class="postComment" type="button">Post Comment</button>
+                </div>
+            </div>
+            <br>
+
+        </section>
+
+        <footer class="footerBlock">
+            <div class="footerName">
+                <h3>CSS-Tricks is created by <a href="#">Chris</a> and a <a href="#">team</a> of swell people.</h3>
+            </div>
+
+            <div class="footerMenu">
+                <div class="menuCol">
+                    <div class="colomn">
+                        <h4 class="titleColomn">TECH</h4>
+                        <div class="pointMenu"><a href="#">WordPress</a> (CMS)</div>
+                        <div class="pointMenu"><a href="#">Jatpack</a> (Search, Backup)</div>
+                        <div class="pointMenu"><a href="#">WooCommerce</a> (eCommerce)</div>
+                        <div class="pointMenu"><a href="#">Local</a> (Development)</div>
+                    </div>
+                    <div class="colomn">
+                        <h4 class="titleColomn">HOSTING</h4>
+                        <div class="pointMenu"><a href="#">Flywheel</a></div>
+                    </div>
+                </div>
+
+                <div class="menuCol">
+                    <div class="colomn">
+                        <h4 class="titleColomn">FAMILY</h4>
+                        <div class="pointMenu"><a href="#">CodePen</a></div>
+                        <div class="pointMenu"><a href="#">ShoooppTallk Show</a></div>
+                    </div>
+                    <div class="colomn">
+                        <h4 class="titleColomn">MINISITES</h4>
+                        <div class="pointMenu"><a href="#">The Power of Serverless</a></div>
+                        <div class="pointMenu"><a href="#">Upcoming Conferences</a></div>
+                        <div class="pointMenu"><a href="#">Coding Fonts</a></div>
+                    </div>
+                </div>
+
+                <div class="menuCol">
+                    <div class="colomn">
+                        <h4 class="titleColomn">CONTACT</h4>
+                        <div class="pointMenu"><a href="#">Email</a></div>
+                        <div class="pointMenu"><a href="#">Sponsorship Info</a></div>
+                        <div class="pointMenu"><a href="#">Guest Writing</a></div>
+                    </div>
+                    <div class="colomn">
+                        <h4 class="titleColomn">BUY</h4>
+                        <div class="pointMenu"><a href="#">Posters & Swag</a></div>
+                        <div class="pointMenu"><a href="#">Membership</a></div>
+                    </div>
+
+                </div>
+
+                <div class="menuCol">
+                    <div class="colomn">
+                        <h4 class="titleColomn">FOLLOW</h4>
+                        <div class="pointMenu"><a href="#">Twitter</a></div>
+                        <div class="pointMenu"><a href="#">Instagram</a></div>
+                        <div class="pointMenu"><a href="#">Youtube</a></div>
+                        <div class="pointMenu"><a href="#">CodePen</a></div>
+                        <div class="pointMenu"><a href="#">GitHub</a></div>
+                        <div class="pointMenu"><a href="#">iTunes</a></div>
+                        <div class="pointMenu"><a href="#">RSS</a></div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </footer>
+
+    </div>
+</body>
+
+</html>
