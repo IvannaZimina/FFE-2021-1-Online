@@ -274,7 +274,7 @@
     font-weight: 600;
     font-family: 'Lobster', cursive;
     letter-spacing: 2px;
-    padding: 28px 0 0 1px;
+    padding: 18px 0 0 1px;
 }
 .choosenText {
     width: 880px;
@@ -346,6 +346,15 @@
     margin-top: 34px;
     display: flex;
     justify-content: space-between;
+}
+.somePartners{
+    color:#a95a1f;
+    margin: 0;
+    font-size: 2em;
+    font-weight: 600;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+    padding: 28px 0 0 1px;
 }
 .logoPartners1 img{
     height: 55px;
