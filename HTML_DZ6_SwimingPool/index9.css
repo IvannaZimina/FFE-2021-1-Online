@@ -1,0 +1,307 @@
+::before::after {
+    box-sizing: border-box;
+}
+
+.wholePage {
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+}
+header {
+    height: 80px;
+    display: flex;
+}
+.logo {
+    width: 482px;
+}
+.logo img {
+    padding-left: 85px;
+    padding-top: 14px;
+}
+.navMenu {
+    display: flex;
+}
+.navMenu li {
+    padding: 15px 3px 33px 0;
+    margin-right: 35px;
+    list-style-type: none;
+}
+.navMenu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #5a6873;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: -1px;
+}
+.bigCards {
+    display: flex;
+    height: auto;
+}
+.childCard {
+    width: 49%;
+    background-image: url(/img/02-11.jpg);
+    background-size: 100% 100%;
+    background-repeat: contain;
+}
+.contentChild {
+    display: flex;
+    width: 78%;
+    margin: 0 auto;
+    padding: 10%;
+}
+.basicCard {
+    width: 51%;
+    background-image: url(/img/umbrella.jpg);
+    background-size: 100% 100%;
+    background-repeat: contain;
+}
+.contentBasic {
+    display: flex;
+    width: 78%;
+    margin: 0 auto;
+    padding: 10%;
+}
+.smallCards {
+    display: flex;
+    height: 257px;
+}
+.seaCard {
+    width: 49%;
+    background-image: url(/img/under-waterswim.jpg);
+    background-size: 100% 100%;
+    background-repeat: contain;
+}
+.contentSea {
+    display: flex;
+    width: 78%;
+    margin: 0 auto;
+    padding: 5%;
+}
+.yogaCard {
+    width: 51%;
+    background-image: url(/img/aquaYoga1.jpeg);
+    background-size: 100% 100%;
+    background-repeat: contain;
+}
+.contentYoga {
+    display: flex;
+    width: 78%;
+    margin: 0 auto;
+    padding: 5%;
+}
+.textPartChild {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    width: 72%;
+}
+.textPartBasic {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    width: 72%;
+}
+.textPartUnder{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    width: 72%;
+}
+.textPartYoga{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5a6873     ;
+    width: 72%;
+}
+.titleBig {
+    font-size: 3.5em;
+    font-weight: bold;
+    letter-spacing: -4px;
+    padding-left: 10px;
+    margin-bottom: 36px;
+}
+.titleSmall {
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: -4px;
+    padding-left: 10px;
+    margin-bottom: 26px;
+}
+.nameBig {
+    text-transform: uppercase;
+    height: 31px;
+    margin-bottom: 34px;
+}
+.blueCard {
+    background-color: #058cff;
+    border-radius: 5px;
+    padding: 10px 0 8px 14px;
+    width: 152px;
+    margin: 0;
+}
+.liloCard{
+    background-color: #da28b2;
+    border-radius: 5px;
+    padding: 10px 0 8px 14px;
+    width: 178px;
+    margin: 0;
+}
+.underCard {
+    background-color: #02828d;
+    border-radius: 5px;
+    padding: 10px 0 8px 14px;
+    width: 171px;
+    margin: 0;
+}
+.nameSmall {
+    text-transform: uppercase;
+    height: 31px;
+    margin-bottom: 24px;
+}
+.aquaYogaCard{
+    background-color: #ffffff  ;
+    border-radius: 5px;
+    padding: 10px 0 8px 14px;
+    width: 170px;
+    margin: 0;
+}
+.textPartChild .title{
+    margin-bottom: 36px;
+    margin-left: 10px;
+}
+.textPartBasic .title{
+    margin-bottom: 36px;
+    margin-left: 10px;
+}
+.centralTitle{
+    margin: 0;
+}
+.decriptionCard p{
+    margin: 0;
+}
+.decriptionCard {
+    width: 219px;
+    line-height: 1.6em;
+    margin-left: 10px;
+    letter-spacing: -1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.buttonPart {
+    width: 28%;
+}
+.buttonPart button{
+    width: 142px;
+    height: 49px;
+    position: relative;
+    border: 0;
+}
+.buyCard {
+    border-radius: 8px;
+    clip-path: polygon(0% 0%, 80% 0%, 100% 50%, 80% 100%, 0% 100%);
+    background: linear-gradient(180deg, rgba(39,192,226,1) 27%, rgba(24,144,197,1) 100%);
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    padding: 0;
+    letter-spacing: 3px;
+}
+.money {
+    background: #f6c600;
+    height: 33px;
+    width: 108px;
+    font-size: 1.6em;
+    font-weight: bold;
+    border-radius: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.buttonPart p{
+    margin: 0;
+    padding: 0 8px;
+}
+
+.PriceChild{
+    position: relative;
+    top: 80%;
+    left: 25%;
+}
+.PriceBasic {
+    position: relative;
+    top: 80%;
+    left: 25%;
+ }
+.PriceUnder{
+    position: relative;
+    top: 60%;
+    left: 25%;
+}
+.PriceYoga{
+    position: relative;
+    top: 60%;
+    left: 25%;
+}
+
+.centralInform{
+    width: 100%;
+    min-height: 479px;
+}
+.blueImage{
+    background-size: 100% 100%;
+    background-image: url(/img/underWater.jpg);
+}
+.textInform {
+    margin: 0 auto;
+    width: 60%;
+    color: #ffffff;
+    padding-top: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.textBlueZone p {
+    margin: 0;
+    text-align: center;
+}
+.oneClass {
+    margin-bottom: 3%;
+}
+.alarmText {
+    margin-bottom: 3%;
+    text-transform: uppercase;
+    font-size: 2.3em;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+.lorem {
+    margin-bottom: 3%;
+    line-height: 2em;
+}
+.learnMore {
+    margin: 0 35%;
+}
+.learnMore button {
+    border: 0;
+    margin: 0;
+    margin-bottom: 15%;
+    background: linear-gradient(180deg, rgba(39,192,226,1) 27%, rgba(24,144,197,1) 100%);
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 7px;
+    padding: 8%;
+    text-transform: uppercase;
+}
+
+.timer{
+    position: relative;
+    bottom: -70px;
+    left: 75%;
+}
+/* .sheduleTitle{
+    margin: 0 auto;
+    padding-top: 5%;
+}
+.sheduleTitle p{
+    color: #5a6873;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: -1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+
+
