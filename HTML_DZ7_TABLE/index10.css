@@ -1,0 +1,33 @@
+table {
+    border: 10px solid rgb(102, 5, 73);
+    width: 500px;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 20px;
+}
+caption {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+thead { 
+    background-color:rgb(255, 0, 0);
+    line-height: 2em;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+td {
+    border: 2px solid rgb(102, 5, 73);
+    padding: 3px;
+}
+
+tbody td:hover {
+    border: 7px groove rgb(2, 255, 2);
+}
+tfoot tr:last-child {
+    background: rgb(196, 6, 69);
+}
+tbody tr:nth-child(2n+2) {
+    background: rgb(255, 251, 0);
+}
