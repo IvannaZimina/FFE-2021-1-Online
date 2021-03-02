@@ -1,0 +1,71 @@
+.burger {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000000;
+    margin: 40px 0 20px 40px;
+}
+.burger img {
+    margin: 30px;
+}
+
+.burger:hover{
+    background:chartreuse;
+}
+
+.icon {
+    font-size: 50px;
+    margin-left: 20px;
+}
+ul {
+    width: 250px;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+}
+li {
+    list-style-type: none;
+}
+ul > li > a {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 50px;
+    margin-right: 30px;
+}
+
+ul > li > .Drink::before {
+    content: "\e800";
+    padding-right: 20px;
+}
+ul > li > .Party::before {
+    content: "\e801";
+    padding-right: 20px;
+}
+ul > li > .Together::before {
+    content: "\e802";
+    padding-right: 20px;
+}
+.snow {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+i.fa.fa-snowflake-o {
+    font-size: 50px;
+    margin-left: 30px;
+    color: blue;
+    font-weight: bold;
+}
+.right {
+    width: 200px;
+}
+.left {
+    width: 200px;
+}
+.right:hover {
+    color: red;
+}
+.left:hover {
+    color: blue;
+}
