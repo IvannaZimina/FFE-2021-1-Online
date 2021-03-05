@@ -1,0 +1,15 @@
+#033d5e - main block details
+#e7d21d - text details
+#666666 - last project
+#cecece - six grey blocks (buttons)
+#2670bf - boreder-top nav-menu
+#6f6f6f - border-bottom nav-menu
+#63789a - border-left-right nav-menu
+#cecece - footer & line
+#999999 - border-top footer
+#efefef - border last text-block
+#ebebec - bg market block
+#205391 - text see more
+
+nav-menu
+background: linear-gradient(0deg, rgba(85,130,186,1) 0%, rgba(63,102,156,1) 20%, rgba(50,86,138,1) 50%, rgba(33,64,113,1) 75%, rgba(17,45,91,1) 100%);

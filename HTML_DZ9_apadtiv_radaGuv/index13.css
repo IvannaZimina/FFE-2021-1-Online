@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&family=Roboto:wght@400;500;700&display=swap');::before::after {
+    box-sizing: border-box;
+}
+.mainPage {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+p {
+    margin: 0;
+}
+.head {
+    height: 174px;
+}
+.nameSite {
+    display: flex;
+}
+.logoSite {
+    width: 8%;
+    margin: 8px 19px 9px 31px;
+}
+.logoSite img {
+    width: 95px;
+}
+.nameSiteRegion {
+    width: 92%;
+}
+.title{
+    margin: 40px 0 0 1px;
+}
+.mainTitle {
+    display: flex;
+    align-items: start;
+    margin-bottom: 7px;
+}
+.portal {
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+.region {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.1em;
+    letter-spacing: -0.7px;
+    margin-left: 5px;
+    font-weight: 500;
+    margin-top: -5px;
+}
+.undertitle {
+    display: flex;
+}
+.taken {
+    width: 88%;
+    font-size: 0.8em;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -0.5px;
+    padding-left: 2px;
+}
+.language {
+    width: 12%;
+    display: flex;
+    line-height: 0.8em;
+}
+.language img {
+    width: 12px;
+    margin-right: 5px;
+}
+.chooselanguage {
+    display: flex;
+}
+.chooselanguage a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em;
+    font-family: 'Roboto', sans-serif;
+}
+.navigation {
+    background: linear-gradient(0deg, rgba(85,130,186,1) 0%, rgba(63,102,156,1) 20%, rgba(50,86,138,1) 50%, rgba(33,64,113,1) 75%, rgba(17,45,91,1) 100%);
+    border-top: 1px solid #2670bf;
+    border-bottom: 1px solid #6f6f6f;
+    height: 35px;
+}
+.navText {
+    width: 95%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-content: stretch;
+}
+.imgMenu {
+    margin-right: 30px;
+}
+.imgMenu img {
+    width: 17px;
+    padding: 9px 0 5px 0;
+}
+.menuList p{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    padding: 9px 20px 0 0;
+    line-height: 0.6em;
+}
+.menuList {
+    margin-right: 11px;
+    border-right: 1px solid #63789a;
+}
+.centralContainer {
+    width: 95%;
+    margin: 0 auto;
+}
+.newsWeek {
+    display: flex;
+    height: 307px;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+.pictureNews {
+    display: flex;
+    width: 75%;
+}
+.listNews {
+    width: 23%;
+    margin-left: 25px;
+}
+.textMainNews {
+    background: #033d5e;
+    padding: 18px 0 0 15px;
+    width: 33%;
+}
+.picturesMainNews {
+    width: 67%;
+}
+.textMainNews p {
+    color: #ffffff;
+}
+.details a {
+    color:  #e7d21d;
+    font-size: 0.8em;
+}
+.titleNews {
+    font-size: 1.5em;
+    line-height: 1.3em;
+    padding-bottom: 15px;
+}
+.describeNews {
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin-bottom: 30px;
+}
+.picturesMainNews {
+    background-image: url(/img/railway_4280x3240.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.titleListNews {
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 17px;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+}
+.titleListNews p {
+    line-height: 0.8em;
+}
+.listListNews {
+    background-color: #cecece;
+    padding: 15px 0 0 10px;
+}
+.newsListBlock {
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    padding: 0 0 12px 0;
+}
+.Date {
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.shotNews {
+    padding-bottom: 10px;
+}
+.blockClicks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.greyButton {
+    height: 71px;
+    display: flex;
+    margin-bottom: 30px;
+    background: #cecece;
+    width: 31.5%;
+}
+.singleClick{
+    width: 18%;
+}
+.singleClick > .herb {
+    width: 25px;
+    padding: 18px 0 0 23px;
+}
+.singleClick img {
+    width: 33px;
+    border: 0;
+    padding: 20px 0 0 17px;
+}
+.nameOfClick {
+    padding-top: 22px;
+}
+.nameOfClick a {
+    text-decoration: none;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #000000;
+}
+
+
+
+@media screen and (max-width: 780px){
+
+    .head {
+        height: 209px;
+    }
+    .logoSite {
+        width: 12%;
+        margin: 8px 19px 9px 31px;
+    }
+    .nameSiteRegion {
+        width: 88%;
+    }
+    .title {
+        margin: 15px 0 0 0;
+    }
+    .portal {
+        padding-left: 12px;
+    }
+    .mainTitle {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 7px;
+    }
+    .region {
+        font-size: 3em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .taken {
+        width: 80%;
+    }
+    .language {
+        width: 20%;
+    }
+    .navigation {
+        height: 70px;
+    }
+    .navText {
+        flex-wrap: wrap;
+        justify-content: center;
+        line-height: 1.1em;
+    }
+    .menuList p{
+        padding: 12px 10px 0 0;
+    }
+    .menuList {
+        margin-right: 11px;
+    }
+    .centralContainer {
+        width: 92%;
+    }
+    .newsWeek {
+        height: 490px;
+        flex-wrap: wrap;
+        margin-bottom: 85px;
+    }
+    .pictureNews {
+        width: 100%;
+    }
+    .listNews {
+        width: 100%;
+        margin-top: 41px;
+        margin-left: -2px;
+        padding-bottom: 54px;
+        border-bottom: 1px solid #cecece;
+    }
+    .textMainNews {
+        padding: 18px 0 27px 15px;
+        width: 39%;
+    }
+    .picturesMainNews {
+        width: 61%;
+    }
+    .describeNews {
+        margin-bottom: 30px;
+        padding-right: 30px;
+    }
+    .titleListNews {
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+    .listListNews {
+        display: flex;
+        justify-content: space-between;
+    }
+    .newsListBlock {
+        width: 31%;
+        padding: 0 0 4px 0;
+    }
+    .greyButton {
+        width: 48%;
+        margin-bottom: 42px;
+
+    }
+}
