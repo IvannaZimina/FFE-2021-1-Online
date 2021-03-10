@@ -487,19 +487,16 @@ header {
     margin: 0;
     width: 90%;
 }
-footer {
-    min-height: 140px;
-}
-.timeTable {
+.hoursSection {
     display: flex;
 }
-.cellTime {
-    width: 7.5%;
-    border: 1px solid rgba(182, 180, 180, 0.849);
-    z-index: 1;
+.emptySection {
+    display: flex;
 }
 .hours {
     padding: 0 auto;
+    width: 7.5%;
+    border: 1px solid rgba(182, 180, 180, 0.849);
 }
 .hours p {
     margin: 0;
@@ -517,22 +514,50 @@ footer {
 .hours {
     background:rgb(235, 235, 235);
 }
+.emptyCellSea{
+    width: 7.5%;
+    border: 1px solid rgba(182, 180, 180, 0.849);
+}
 .emptyCellSea {
-    min-height: 90px;
     background: #ffffff;
 }
-.lineTrainer {
-    width: 80%;
-    height: 30px;
-    position: relative;
-    top: 10%;
-    left: 10%;
-    background: linear-gradient(180deg, rgba(39,192,226,1) 27%, rgba(24,144,197,1) 100%);
-    border: 0;
-    border-radius: 8px;
-    z-index: 5;
-}
-.nameTrainer {
-    margin: 0;
+.emptyCellSea p {
     color: #ffffff;
+    min-height: 20px;
+    margin: 48% 0;
+}
+footer {
+    min-height: 145px;
+    background-color: #1b3045;
+}
+.footerContent {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+    padding-left: 9%;
+}
+.footerBlocks {
+    width: 23%;
+    padding: 5% 0 0 0;
+}
+.phoneFooter {
+    font-size: 2.1em;
+    margin: 0;
+}
+.lisenceFooter p {
+    margin: 0;
+    font-size: 0.9em;
+}
+.iconsFooter {
+    padding-left: 3%;
+}
+.iconsFooter img{
+    width: 15%;
+    padding: 0 15px;
+}
+.designFooter p {
+    margin: 0;
+    text-align: end;
 }
